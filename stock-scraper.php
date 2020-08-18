@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <?php
-            $title = "code.eddierowe.com";
+            $title = "Stock Scraper";
             include "includes/head.html"
         ?>
     </head>
@@ -14,9 +14,13 @@
             include "includes/navbar.html"
         ?>
         <?php
-            $date = "28/07/2020";
-            $content = "<p>I wrote this website using HTML, CSS, and PHP.</p> 
-                        <p><a href='https://github.com/EddieRowe/code.eddierowe.com' target='_blank'>
+            $date = "18/08/2020";
+            $content = "<p>First project using Python, uses BeautifulSoup 
+                        for scraping, and tkinter for gui.</p> 
+                        
+                        <p><img src='images/scraper_screenshot.jpg' width=600px;></img></p>
+                        
+                        <p><a href='https://github.com/EddieRowe/StockScraper' target='_blank'>
                         View source on GitHub.</a></p>";
             include "includes/post.php"
         ?>

@@ -14,7 +14,7 @@
             include "includes/navbar.html"
         ?>        
         <?php
-            $date = "28/07/2020";
+            $date = "31/07/2020";
             $content = file_get_contents('includes/projects.html');
             include "includes/post.php"
         ?>        
