@@ -28,7 +28,12 @@
                         Code written in C# with Unity, using JSON for databases of weapons, etc.
                         </p>
                         
-                        <p><img src='images/ascension.jpg' width=400px;></img></p>
+                        <p><img src='images/ascension.jpg' height=265px;></img>
+                        
+                        <iframe width='50%' height='265' src='https://www.youtube-nocookie.com/embed/wRZ-0OqTe50' 
+                        frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
+                        allowfullscreen></iframe>
+                        </p>
                         
                         
                         
