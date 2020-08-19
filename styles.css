@@ -38,43 +38,52 @@ a:hover, a:active {
     background-color: #454b50;
 }
 
-.row {
+.flexbox-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 5px;
+    padding: 0px 0px 10px 0px;
     /*background-color: #575e64;*/
 }
 
-.column {
-    flex: 100%;
-    max-width: 25%;
-    padding: 10px 4px;
+.flexbox-item {
+    /*flex: 100%;*/
+    /*max-width: 25%;*/
+    /*padding: 0px, 0px, 0px, 0px;*/
+    width: 100%;
+    border: 3px solid #232627;
+    
 }
 
-.column img {
-    vertical-align: middle;
+.flexbox-item a:link, a:visited {
+        
+        width: 98%;
+    }
+
+.flexbox-item img {
+    display: block;
+    margin: auto;
     width: 90%;
-    border:5px solid;
-    border-color: #232627;
-    margin:5px 5px;
+    border:3px solid #232627;
+
 }
 
-.column h4 {
-    margin:5px 5px;
+.flexbox-item h4 {
+
     text-align: center;
-    width: 90%;
-    font-size: 28px;
+    width: 100%;
+    font-size: 36px;
 }
 
-.column p {
-    margin:5px 5px;
+.flexbox-item p {
+
     text-align: center;
-    width: 90%;
-    font-size: 24px;
+    width: 100%;
+    font-size: 30px;
 }
 
 .title {
-    width: 100%px;
+    width: 100%;
     margin: auto;
     color: rgb(180, 180, 180);
     text-align: center;
@@ -111,6 +120,18 @@ a:hover, a:active {
     font-style: italic;
 }
 
+.footer a:link, a:visited {
+    all: unset;
+
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(180, 180, 180);
+}
+
+.footer a:hover, a:active {
+    color: rgb(120, 120, 120);;
+}
+
 
 /*desktop*/ 
 @media only screen and (min-width: 1000px) {
@@ -127,6 +148,9 @@ a:hover, a:active {
         font-size: 150%;
     }
     
+
+    
+    
     .title{
         width: 50%;
     }
@@ -139,26 +163,44 @@ a:hover, a:active {
     .footer {
         width: 50%;
     }
-    
-    .row {
-        display: flex;
-        flex-wrap: wrap;
+
+    .flexbox-container {
+        justify-content: space-evenly;
+        /*flex-wrap: wrap;*/
     }
     
-    .column {
-        flex: 20%;
-        max-width: 100%;
+    .flexbox-item {
+        width: unset;
+        border: 3px solid #232627;
     }
     
-    .column img {
+    .flexbox-item a:link, a:visited {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .flexbox-item a:hover, a:active {
+        background-color: #454b50;
+    }
+    
+    .flexbox-item img {
+        display: block;
+        margin: auto;
         width: 90%;
+        border:3px solid #232627;
     }
     
-    .column h4 {
-        font-size: 20px;
+    .flexbox-item h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
     }
     
-    .column p {
-        font-size: 16px;
+    .flexbox-item p {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        font-size: 12px;
     }
+    
 } 
