@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <?php
-            $title = "Covid19 UK Data Graphing";
+            $title = "COVID-19 UK Data Graphing";
             include "includes/head.html"
         ?>
     </head>
