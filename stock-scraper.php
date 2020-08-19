@@ -15,8 +15,8 @@
         ?>
         <?php
             $date = "18/08/2020";
-            $content = "<p>First project using Python, uses BeautifulSoup 
-                        for scraping, and tkinter for gui.</p> 
+            $content = "<p>First project written in Python, uses <i>BeautifulSoup</i> 
+                        for scraping, and <i>tkinter</i> for gui.</p> 
                         
                         <p><img src='images/scraper_screenshot.jpg' width=600px;></img></p>
                         

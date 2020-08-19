@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <?php
-            $title = "Eddie Rowe";
+            $title = "Eddie Rowe<br>Programmer";
             include "includes/head.html"
         ?>
     </head>

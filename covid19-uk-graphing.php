@@ -16,7 +16,8 @@
         <?php
             $date = "18/08/2020";
             $content = "<p>Grabs latest figures from the Public Health England API 
-                        and uses Dash, Plotly, and Pandas to show the data graphically.</p> 
+                        and uses <i>Dash</i>, <i>Plotly</i>, and <i>Pandas</i> to manipulate and show the data graphically.</p>
+                        <p>Written in Python.</p>
                         
                         <p><img src='images/covid_graphing.jpg' width=600px;></img></p>
                         

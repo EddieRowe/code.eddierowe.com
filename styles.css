@@ -45,10 +45,9 @@ a:hover, a:active {
     /*background-color: #575e64;*/
 }
 
-
 .column {
     flex: 100%;
-    max-width: 100%;
+    max-width: 25%;
     padding: 10px 4px;
 }
 

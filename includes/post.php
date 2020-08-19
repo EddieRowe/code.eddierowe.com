@@ -8,7 +8,7 @@
 
     <div class = "date">
         <p>
-            Last Revision: <?php echo $date; ?>
+            Last revision to this page: <?php echo $date; ?>
         </p>
     </div>
 
