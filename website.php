@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <?php
-            $title = "code.eddierowe.com";
+            $title = "This Website";
             include "includes/head.html"
         ?>
     </head>
@@ -14,8 +14,11 @@
             include "includes/navbar.html"
         ?>
         <?php
-            $date = "28/07/2020";
-            $content = "<p>I wrote this website using HTML, CSS, and PHP.</p> 
+            $date = "19/08/2020";
+            $content = "<p>I wrote the <i>code.eddierowe.com</i> website using HTML, CSS, and PHP.</p> 
+            
+                        <p><img src='images/website.jpg' width=600px;></img>
+            
                         <p><a href='https://github.com/EddieRowe/code.eddierowe.com' target='_blank'>
                         View source on GitHub.</a></p>";
             include "includes/post.php"

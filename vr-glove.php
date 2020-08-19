@@ -21,7 +21,9 @@
 
                         <p>It was made from a wetsuit glove, some flexible resistors 
                         (the resistances of which vary dependant upon how bent they are), 
-                        a gyroscope, and an Arduino.</p> 
+                        a gyroscope, and an Arduino.</p>
+                        
+                        <p>Written in C# with Unity & C++ with Arduino.</p>
                         
                         <p><img src='images/vr_glove_gif1.gif' height=265px;></img>
                         
