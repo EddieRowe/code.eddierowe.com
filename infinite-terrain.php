@@ -22,9 +22,10 @@
                         
                         <p><img src='images/inf_terrain.gif' width=400px; height=265px;></img>
                         
-                        <iframe width='50%' height='265' src='https://www.youtube-nocookie.com/embed/YXtD0gUz69A' 
-                        frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
-                        allowfullscreen></iframe>
+                        <video width='50%' height='265' controls>
+                            <source src='videos/terrain.webm' type='video/mp4'>
+                            Your browser does not support this video type.
+                        </video> 
                         </p>
                         
                         ";

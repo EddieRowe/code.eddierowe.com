@@ -27,9 +27,10 @@
                         
                         <p><img src='images/vr_glove_gif1.gif' height=265px;></img>
                         
-                        <iframe width='50%' height='265' src='https://www.youtube-nocookie.com/embed/8h514OOkddc' 
-                        frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
-                        allowfullscreen></iframe>
+                        <video width='50%' height='265' controls>
+                            <source src='videos/glove.webm' type='video/mp4'>
+                            Your browser does not support this video type.
+                        </video> 
                         
                         </p>";
             include "includes/post.php"

@@ -30,13 +30,12 @@
                         
                         <p><img src='images/ascension.jpg' height=265px;></img>
                         
-                        <iframe width='50%' height='265' src='https://www.youtube-nocookie.com/embed/wRZ-0OqTe50' 
-                        frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' 
-                        allowfullscreen></iframe>
+                         <video width='50%' height='265' controls>
+                            <source src='videos/ascension.webm' type='video/mp4'>
+                            Your browser does not support this video type.
+                        </video> 
                         </p>
-                        
-                        
-                        
+
                         ";
             include "includes/post.php"
         ?>
